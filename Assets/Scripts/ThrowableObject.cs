@@ -71,7 +71,7 @@ public class ThrowableObject : GrabbableObject
         
     }
 
-    private void FixedUpdate()
+    private void FixedUpdate() //updates distance/1.02 time          
     {
         // calculate a single velocity
         var velocity = transform.position - previousPosition;
